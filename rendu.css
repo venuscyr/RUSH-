@@ -1,7 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+.contenair {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo {
+    display:flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.nav-item {
+    text-align: center;
+}
+.nav-item strong {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.nav-item ul {
+    list-style-type: none;
+    padding: 0;
+}
+.nav-item li {
+    font-size: 14px;
+}
+.nav-item:nth-child(1) strong {color:#ff6600;}
+.nav-item:nth-child(2) strong {color:#ffcc00;}
+.nav-item:nth-child(3) strong {color:#66cc33;}
+.nav-item:nth-child(4) strong {color:#3399ff ;}
+.nav-item:nth-child(5) strong {color: #9933ff;}
+
+
 nav {
-    background-image: url("rush01_assets/misc/grille.png");
+    background-image: url("misc/grille.png");
     height: 180px;
     } 
+    
 main {
     
     text-align: center;
@@ -11,12 +63,10 @@ iframe{
     max-width: 700px;
     }
 section em {
-    font-size: larger1.2em;
     color: #555;
-    margin-bottom: 101px;
-    display: block;
-    background-image: url("rush01_assets/misc/grille.png");
-    height: 100px;
+    margin-bottom: 56px;
+    background-image: url("misc/grille.png");
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;  
@@ -43,9 +93,15 @@ td {
 table img {
     width: 50px;
 }
-footer {
-    background-image: url("rush01_assets/misc/grille.png");
+section {
+    background-image: url("misc/grille.png");
     height: 300px; 
     text-align: left;
 }
 
+.alligner { 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
